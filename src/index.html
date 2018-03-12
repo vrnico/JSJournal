@@ -5,11 +5,12 @@
     <title>Journal</title>
   </head>
   <body>
-    <form id="journal">
-      <textarea rows="4" cols="50" placeholder="WRITE SOMETHING PERSONAL!">
-      </textarea>
-      <input id="goal" type="number">
-      <button id="count">Count</button>
+    <form id="journal-form">
+      <label for="title">Title:</label>
+      <input id="title" type="text">
+      <label for="entry">Entry:</label>
+      <input id="entry" type="textarea">
+      <button type="submit">Submit</button>
     </form>
     <ul id="solution"></ul>
   </body>
